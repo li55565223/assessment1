@@ -1,0 +1,29 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Teaching01" parent="Theme.Design.Light.NoActionBar">
+        <item name="android:windowBackground">#B6C7E7</item>
+        <item name="android:colorBackground">@android:color/holo_green_light</item>
+        <item name="android:textColorPrimary">@android:color/holo_green_light</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+        <item name="android:editTextStyle">@style/MyEditTextStyle</item>
+        <item name="android:editTextBackground">@drawable/edittext_rounded_border</item>
+    </style>
+
+    <style name="MyEditTextStyle">
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+    <style name="MyButtonStyle">
+        <item name="android:textAlignment">center</item>
+        <item name="android:shape">rectangle</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/custom_button_border</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+    </style>
+
+    <style name="Theme.Teaching01" parent="Base.Theme.Teaching01" />
+</resources>

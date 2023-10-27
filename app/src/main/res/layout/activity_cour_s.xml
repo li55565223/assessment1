@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Course"
+        android:padding="15dp"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/etCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Course Name"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:padding="10dp"
+        android:focusable="false"
+        android:text="Start Date" />
+
+    <EditText
+        android:id="@+id/etEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:padding="10dp"
+        android:focusable="false"
+        android:text="End Date" />
+
+    <Button
+        android:id="@+id/btnUpdateCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnStudentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="View Students" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_height="wrap_content"
+       android:layout_gravity="bottom">
+
+       <Button
+           android:id="@+id/btnQueryAttendance"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           android:layout_marginRight="2dp"
+           android:text="Attendance Query" />
+
+       <Button
+           android:id="@+id/btnAddAttendance"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_marginRight="2dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="16dp"
+           android:text="Add Attendance" />
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDeleteCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Delete" />
+
+</LinearLayout>
